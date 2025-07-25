@@ -1,5 +1,25 @@
-# created by virtualenv automatically
-.venv/bin
-pyvenv.cfg
-venv
-.env
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.env/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# pytest cache
+.pytest_cache/
